@@ -1,0 +1,71 @@
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# ==========================================================
+#  Node & Dependency Files
+# ==========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ==========================================================
+#  Expo & React Native Build Files
+# ==========================================================
+.expo/
+.expo-shared/
+dist/
+web-build/
+build/
+.expo-env.d.ts
+
+# ==========================================================
+#  Android / iOS Native Folders (auto-generated)
+# ==========================================================
+android/
+ios/
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.gradle/
+.idea/
+
+# ==========================================================
+#  Metro / Cache / Logs
+# ==========================================================
+.metro/
+.metro-health-check*
+*.log
+*.tmp
+*.lock
+
+# ==========================================================
+#  Environment & Config Files
+# ==========================================================
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# ==========================================================
+#  OS & Editor Files
+# ==========================================================
+.DS_Store
+Thumbs.db
+*.pem
+*.orig.*
+.vscode/
+*.tsbuildinfo
+
+# ==========================================================
+#  Miscellaneous
+# ==========================================================
+app-example/
+logs/
+coverage/
